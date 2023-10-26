@@ -11,9 +11,20 @@ print(a)"""
 #We will come back to this when we need it
 
 import cv2 as cv
+import numpy as np
 import sys
 
-img = cv.imread(cv.samples.findFile('grasss.png'))
+#This is how to draw on the img
+#We'll come back to drawing shapes
+"""img = np.zeros((200, 200, 3), np.uint8)
+cv.line(img, (0, 0), (199, 199), (255, 0, 0), 5)
+cv.rectangle(img,(384,0),(510,128),(0,255,0),3)
+
+font = cv.FONT_HERSHEY_SIMPLEX
+cv.putText(img,'OpenCV',(10,500), font, 4,(255,255,255),2,cv.LINE_AA)"""
+
+#This is for how to load images
+"""img = cv.imread(cv.samples.findFile('grasss.png'))
 
 if img is None:
   sys.exit('Could not read the image.')
@@ -22,7 +33,11 @@ cv.imshow('Cove School Project', img)
 k = cv.waitKey(0)
 
 if k == ord('s'):
-  cv.imwrite('grasss.png', img)
+  cv.imwrite('grasss.png', img)"""
 
 #This is so when I run the project, it can be presentable:
 print("\nignore this for now\nHere is how opencv went:\nI first, blah...blah; Add more here!\nI then compared\n(List a github project here), with (List another github project) and both had, blah...blah; Add more here!\nHere is my final project:\nWhat it does is blah...blah; Add the last step here! How it realates to my evrey day is, blah...blah; add more here")
+
+#This is to store all the events in openCV
+events = [i for i in dir(cv) if 'EVENT' in i]
+print(events)

@@ -1,0 +1,17 @@
+# OpenCV Project
+## This project uses opencv-python version 4.5.5  Use this link to access the OpenCV-Python tutorials https://docs.opencv.org/4.5.5/d6/d00/tutorial_py_root.html
+# __Goals__
+## 1. Work through the OpenCV tutorials to learn how the library works, syntax, and strategies
+- Complete Introduction, GUI Features, Core Operations, Image Processing, Feature Detection Modules
+- Look into Object Detection
+- Look into Machine Learning
+- Explore Video Analysis
+## 2. Find two projects that use OpenCV-Python and compare them. 
+- List two things that you learned from each project
+- List a critique for each project
+## 3. Determine a project that relates to something you encounter every day.
+### Examples:
+- Develop a vision pipeline that detects a pixel location from this years' FTC challenge
+- Develop a program that scans through several images and determines whether your face is in the picture
+- Develop a program that can pull a license plate number from pictures of cars
+- Develop a program that analyzes drone images to count the number of trees in a picture
